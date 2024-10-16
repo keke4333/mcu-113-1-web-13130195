@@ -10,6 +10,17 @@ section.body {
   width: 90%;
   margin: 0 auto;
 }
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+ul > li {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 8px;
+  width: 80px;
+  text-align: center;
+}
 nav {
   margin-bottom: 10px;
 }
