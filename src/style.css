@@ -33,12 +33,6 @@ a:focus {
 nav {
   margin-bottom: 10px;
 }
-.card {
-  border: solid 1px #999;
-  padding: 10px;
-  border-radius: 8px;
-  flex-basis: 250px;
-}
 input[type="text"] {
   width: 200px;
   height: 25px;
@@ -82,4 +76,13 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+.card {
+  border: solid 1px #999;
+  padding: 10px;
+  border-radius: 8px;
+  flex-basis: 250px;
+  display: gird;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: ;
 }
